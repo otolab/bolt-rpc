@@ -5,8 +5,7 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "plaidev/minimum-rpc": "*",
-    "caolan/async": "*"
+    "plaidev/minimum-rpc": "*"
   },
   "development": {},
   "license": "MIT",
