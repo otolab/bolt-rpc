@@ -76,19 +76,6 @@
       });
     };
 
-    StackServer.prototype.trackBy = function(methods, data) {
-      if (methods == null) {
-        methods = [];
-      }
-      if (!Array.isArray(methods)) {
-        methods = [methods];
-      }
-      return this.server.channel.emit(this.server.sub_name_space + '_track', {
-        methods: methods,
-        data: data
-      });
-    };
-
     StackServer.prototype.use = function() {
       var method, methods, options, path, _i, _len;
       path = arguments[0];
